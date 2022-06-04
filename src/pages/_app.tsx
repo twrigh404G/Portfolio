@@ -8,6 +8,7 @@ import theme from '../../styles/theme';
 import createEmotionCache from '../../src/lib/createEmotionCache';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
+import Layout from '../components/Layout';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
