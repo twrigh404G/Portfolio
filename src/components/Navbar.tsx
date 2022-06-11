@@ -1,28 +1,25 @@
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import styled from '@emotion/styled';
+import { css, jsx } from '@emotion/react';
+import { FC } from 'react';
+
+const navbarStyles = css({
+    color: 'red',
+  
+  });
+
+const Navbar: FC = () => {
+  return (<footer>
+      <Grid container>
+        <Grid item xs={12}>
+            <Paper css={navbarStyles}>Hello</Paper>
+        </Grid>
+      </Grid>
+      </footer>)
+};
 
 
-
-
-
-const Navbar = ( ) => {
-<Container>
-  <Grid container>
-    <Grid item>
-
-    </Grid>
-    <Grid item>
-
-    </Grid>
-    <Grid item>
-
-    </Grid>
-  </Grid>
-</Container>
-}
 
 export default Navbar;
