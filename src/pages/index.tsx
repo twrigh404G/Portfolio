@@ -6,6 +6,7 @@ import styles from '../../styles/Home.module.css';
 import StyledEmotionButton from '../components/StyledEmotionButton';
 
 const Home: NextPage = () => {
+  
   return (
     <div className={styles.container}>
       <Head>

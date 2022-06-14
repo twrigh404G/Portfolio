@@ -14,7 +14,7 @@ const Navbar: FC = () => {
   return (<footer>
       <Grid container>
         <Grid item xs={12}>
-            <Paper css={navbarStyles}>Hello</Paper>
+            <Paper css={navbarStyles}>NavBar</Paper>
         </Grid>
       </Grid>
       </footer>)

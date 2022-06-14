@@ -6,16 +6,13 @@ import Paper from '@mui/material/Paper';
 import { css, jsx } from '@emotion/react';
 import { FC } from 'react';
 
-const footerStyles = css({
-    color: 'red',
-  
-  });
-
 const Footer: FC = () => {
   return (<footer>
       <Grid container>
         <Grid item xs={12}>
-            <Paper css={footerStyles}>Hello</Paper>
+            <Paper css={css`
+      background-color: hotpink;`
+        }>yooo</Paper>
         </Grid>
       </Grid>
       </footer>)
