@@ -5,7 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import theme from '../../styles/theme';
 import createEmotionCache from '../../src/lib/createEmotionCache';
-import Layout from '../components/Layout';
+
 
 
 
@@ -27,10 +27,6 @@ const App = (props: MyAppProps) => {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-        
       </ThemeProvider>
     </CacheProvider>
   );
