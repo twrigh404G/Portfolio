@@ -5,9 +5,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
   <>
-   <div>
-    
-  </div>  
+    <div className='text-3xl text-green-600 p-2'>
+      Hello Geeks!
+    </div>
   </>
     
     )
