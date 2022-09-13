@@ -10,7 +10,7 @@ export default function Home() {
         <div className="hero-right">
 
         </div>
-        <Image className="hero-left"/>
+        <Image className="hero-left" src=""/>
       </div>
     </div>
   </>
