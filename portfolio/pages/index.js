@@ -5,8 +5,13 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
   <>
-    <div className='text-3xl text-green-600 p-2'>
-      Hello Geeks!
+    <div className='main'>
+      <div className="hero-main">
+        <div className="hero-right">
+
+        </div>
+        <Image className="hero-left"/>
+      </div>
     </div>
   </>
     
