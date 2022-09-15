@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
  
 const Navbar = () => {
+    
+    
     return (
         <nav>
             <ul className='flex flex-row'>
@@ -11,6 +13,10 @@ const Navbar = () => {
                 <Link href='/blog'><a><li>Blog</li></a></Link>
                 <Link href='/contact'><a><li>Contact</li></a></Link>
             </ul>
+            <div className={userauthbtns}>
+                <button>Login</button>
+            </div>
+            
         </nav>
     )
 }

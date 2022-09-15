@@ -3,6 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  
+  const handleAuthSignUp = () => {
+
+  }
+
   return (
   <>
     <div className='main'>
@@ -11,6 +16,10 @@ export default function Home() {
 
         </div>
         <Image className="hero-left" src=""/>
+      </div>
+      <br/>
+      <div >
+
       </div>
     </div>
   </>
